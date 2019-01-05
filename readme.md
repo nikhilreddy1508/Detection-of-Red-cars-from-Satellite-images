@@ -1,5 +1,7 @@
-# TTTLE    
-Detection of Red Cars from High Definition Satellite Imagery 
+# Detection of Red Cars from High Definition Satellite Imagery   
+Red Car detection in satellite images using KNN Classifier and Probabilistic Generative Classifier with RGB values of every pixel as features to the classifiers. 
+
+To reduce the computational time of training all the pixels in the satellite images, preprocessing step was added by constructing sub images based on regions of interest and training the classifier with these sub images
 
 # How to Run:
 ```
